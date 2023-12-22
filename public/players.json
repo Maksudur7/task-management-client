@@ -1,0 +1,18 @@
+[
+    {
+      "image": "https://example.com/images/person1.jpg",
+      "name": "John Doe",
+      "country": "United States"
+    },
+    {
+      "image": "https://example.com/images/person2.jpg",
+      "name": "Jane Smith",
+      "country": "Canada"
+    },
+    {
+      "image": "https://example.com/images/person3.jpg",
+      "name": "Carlos Rodriguez",
+      "country": "Spain"
+    }
+  ]
+  
