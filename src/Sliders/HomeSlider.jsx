@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 const HomeSlider = () => {
     const [userData, setUserData] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://task-management-surver.vercel.app/users')
             .then(res => res.json())
             .then(data => setUserData(data))
     }, [])
@@ -69,7 +69,7 @@ const HomeSlider = () => {
                 {
                     userData.map(users => <>
                         <div>
-                            <div className="card w-96 bg-base-100  shadow-xl">
+                            <div className="card lg:w-96 w-80 bg-base-100  shadow-xl">
                                 <figure><img className='rounded-full' src={users.image} alt="Shoes" /></figure>
                                 <div className="card-body ">
                                     <h2 className="text-center">{users.name}</h2>

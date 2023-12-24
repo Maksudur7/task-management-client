@@ -39,12 +39,12 @@ const Login = () => {
                 const userinfo = {
                     name: res.user.displayName,
                     email: res.user.email,
-                    image :res.user.photoURL
+                    image: res.user.photoURL
 
                 }
                 Navigate(location?.state ? location?.state : '/')
-                
-                fetch(' http://localhost:5000/users', {
+
+                fetch('https://task-management-surver.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

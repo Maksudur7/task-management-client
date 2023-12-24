@@ -6,7 +6,7 @@ const DevelopYourExpreance = () => {
             <div >
                 <h1 className="text-7xl font-extralight  mt-10">Who is utilizing this website?</h1>
                 <div className="flex justify-center items-center">
-                    <div className="grid grid-cols-3 my-10 gap-5">
+                    <div className="grid lg:grid-cols-3 my-10 gap-5">
                         <div className="card w-96 bg-base-100 border image-full">
                             <figure><img src="https://i.ibb.co/4FYJCYx/developer.webp" alt="Shoes" /></figure>
                             <div className="card-body ">

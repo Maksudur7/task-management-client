@@ -44,7 +44,7 @@ const Regster = () => {
             email: data.user.email,
             image: data.photoURL
         }
-        fetch(' http://localhost:5000/users', {
+        fetch('https://task-management-surver.vercel.app/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -31,7 +31,7 @@ const Navbar = () => {
                             <li><Link to={`/login`}><a>Login</a></Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">Bitrix24</a>
                 </div>
 
                 <div className="navbar-end">
